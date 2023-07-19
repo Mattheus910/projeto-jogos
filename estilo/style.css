@@ -32,7 +32,6 @@
 }
 
 * {
-    min-width: 100vw;
     margin: 0px;
     padding: 0px;
 }
@@ -47,7 +46,6 @@
 }
 
 body {
-    margin: auto;
     justify-content: center;
 }
 
@@ -81,9 +79,9 @@ section {
     display: flex;
     flex-direction: column;
     max-width: 700px;
-    width: 100%;
-    padding: 20px;
+    margin: auto;
 }
+
 .texto {
     display: flex;
     flex-direction: column;
