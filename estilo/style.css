@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: "games";
+    src: url(../fontes/VCR_OSD_MONO_1.001.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "rd";
+    src: url(../fontes/chinese\ rocks\ rg.otf) format(opentype);
+}
+
+@font-face {
+    font-family: "tw";
+    src: url(../fontes/die\ nasty.otf) format(opentype);
+}
+
+@font-face {
+    font-family: "hk";
+    src: url(../fontes/Trajan\ Pro\ Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "dk";
+    src: url(../fontes/Jumpman.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "bb";
+    src: url(../fontes/Fleshandblood-MVA5x.ttf) format(truetype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte-gm: "games";
+    --fonte-rd: "rd";
+    --fonte-tw: "tw";
+    --fonte-hk: "hk";
+    --fonte-dk: "dk";
+    --fonte-bb: "bb";
+}
+
+body {
+    min-width: 100vh;
+    margin: auto;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: "games";
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 5px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgwitcher {
+    background-image: url(../imagens/tw.png);
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 1px 10px 11px rgba(0, 0, 0, 0.541);
+}
+
+.fontetw {
+    font-family: var(--fonte-tw);
+}
+
+.bgreddead {
+    background-image: url(../imagens/rdr.png);
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 1px 10px 11px rgba(0, 0, 0, 0.541);
+
+}
+
+.fonterdr {
+    font-family: var(--fonte-rd);
+    font-size: xx-large;
+}
+
+.bghollow {
+    background-image: url(../imagens/hk.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 1px 10px 11px rgba(0, 0, 0, 0.541);
+} 
+
+.fontehk {
+    font-family: var(--fonte-hk);
+}
+
+.bgblood {
+    background-image: url(../imagens/bb.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 1px 10px 11px rgba(0, 0, 0, 0.541);
+}
+
+.fontebb {
+    font-family: var(--fonte-bb);
+    font-size: xx-large;
+}
+
+.bgdonkey {
+    background-image: url(../imagens/dk.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 1px 10px 11px rgba(0, 0, 0, 0.541);
+}
+
+.fontedk {
+    font-family: var(--fonte-dk);
+    font-size: xx-large;
+}
+
+.termino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+
