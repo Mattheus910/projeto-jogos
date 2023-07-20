@@ -2,7 +2,7 @@
 
 Este é o repositório do meu site de jogos favoritos, uma página simples criada com o propósito de compartilhar os jogos que mais me marcaram e que considero os melhores. O site foi desenvolvido como um projeto de estudos para aprimorar meus conhecimentos em HTML, CSS e JavaScript, e também para explorar a técnica de background fixed.
 
-![Captura de Tela](../projeto-jogos/imagens/screencapture-file-C-Users-mathe-OneDrive-Documentos-GitHub-projeto-jogos-index-html-2023-07-19-21_51_49.png)
+![Captura de Tela](imagens/tela.png)
 
 ## Visão Geral
 
@@ -14,7 +14,7 @@ Uma das principais características deste site é a utilização da técnica de 
 
 ## Como Visualizar o Site
 
-Para visualizar o site, basta acessar o link `https://mattheus910.github.io/projeto-jogos/` em qualquer navegador moderno.
+Para visualizar o site, basta acessar o [link] (https://mattheus910.github.io/projeto-jogos/) em qualquer navegador moderno.
 
 ## Créditos de Imagens
 
