@@ -62,7 +62,7 @@ p {
 }
 
 h1 {
-    margin: 5px;
+    margin: 15px;
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 250px;
     padding: 20px;
     text-indent: 10px;
 }
@@ -90,8 +90,26 @@ section {
     align-items: center;
     padding: 20px;
     text-indent: 10px;
-    
 }
+
+.icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icones img {
+    width: 48px;
+    height: 48px;
+    transition: transform 0.3s ease;
+  }
+
+  .icones img:hover {
+    transform: scale(1.2);
+  }
+
+
 
 .bgwitcher {
     background: url(../imagens/tw.png) center center / cover no-repeat fixed;
@@ -165,6 +183,12 @@ footer {
     color: white;
     text-align: center;
     font-size: small;
+    text-decoration: none;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
 }
 
 
